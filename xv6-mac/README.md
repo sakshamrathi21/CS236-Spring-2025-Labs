@@ -7,25 +7,39 @@
 
 2. **Install Required Packages:** (this step might take time)
    ```bash
-   brew install qemu gcc i386-elf-gcc i386-elf-binutils gdb
+   brew install qemu gcc
    ```
 
-3. **Clone the xv6 repository:**
+3. **Tap the repository and install the packages:**
+   ```bash
+   brew tap nativeos/i386-elf-toolchain
+   brew install nativeos/i386-elf-toolchain/i386-elf-binutils
+   brew install nativeos/i386-elf-toolchain/i386-elf-gcc
+   ```
+
+4. **Clone the xv6 repository:**
    ```bash
    git clone https://github.com/sakshamrathi21/CS236-Spring-2025-Labs
-   cd xv6-mac
+   cd CS236-Spring-2025-Labs/xv6-mac
    ```
 
-4. **Compile xv6:**
+5. **Compile xv6:**
    ```bash
    make clean
    make
    ```
 
-5. **Start the QEMU emulator:**
+6. **Start the QEMU emulator:**
    ```bash
    make qemu
    ```
+7. **User tests:** (for testing)
+   A separate window will pop up (displaying the qemu emulator window). Run the following command:
+   ```bash
+   usertests
+   ```
+   If the following command displays "All tests passed", then you are good to go.
+
 
 ---
 
