@@ -32,4 +32,4 @@
 It is recommended that you create separate copies of this xv6 folder for every problem you solve (so that you do not disturb the original files).
 
 
-In case you face any issues in the above steps, then please contact: Saksham Rathi (Mail: 22b1003@iitb.ac.in ; WhatsApp: +91-6375-66-3539).
+In case you face any issues in the above steps, then please contact: Saksham Rathi (Mail: 22b1003@iitb.ac.in ; WhatsApp: +91-6375-66-3539). In the worst case, you will have to use lab machines through ssh for using xv6 (which isn't really tough).
