@@ -10,7 +10,7 @@
    brew install qemu gcc
    ```
 
-3. **Tap the repository and install the packages:**
+3. **Tap the repository and install the packages:** (this step might take time)
    ```bash
    brew tap nativeos/i386-elf-toolchain
    brew install nativeos/i386-elf-toolchain/i386-elf-binutils
