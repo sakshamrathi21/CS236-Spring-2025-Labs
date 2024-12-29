@@ -34,6 +34,7 @@
    make qemu
    ```
 7. **User tests:** (for testing)
+
    A separate window will pop up (displaying the qemu emulator window). Run the following command:
    ```bash
    usertests
